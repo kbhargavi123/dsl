@@ -1,7 +1,8 @@
-def jobname=$job_name
+def jobname="${job_name}"
+
 job(jobname) {
     scm {
-        git('git://github.com/quidryan/aws-sdk-test.git')
+        git(git://github.com/quidryan/aws-sdk-test.git')
     }
     triggers {
         scm('H/15 * * * *')
