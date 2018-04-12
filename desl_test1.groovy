@@ -8,6 +8,6 @@ job(jobname) {
     }
     steps {
 	     
-       sh 'pwd'
+       shell('pwd')
     }
 }
