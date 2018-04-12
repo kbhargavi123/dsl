@@ -1,4 +1,4 @@
-job('$job_name') {
+job(job_name) {
     scm {
         git('git://github.com/quidryan/aws-sdk-test.git')
     }
