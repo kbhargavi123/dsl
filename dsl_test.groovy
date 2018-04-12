@@ -1,4 +1,4 @@
-def jobname="${job_name}"
+def jobname="${jobName}"
 
 job(jobname) {
     scm {
