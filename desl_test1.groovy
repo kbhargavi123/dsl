@@ -13,4 +13,5 @@ job(jobname) {
 	    antInstallation '1.9.6'
 		buildFIle "build.xml"
 	}
+ }
 }
