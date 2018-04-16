@@ -11,7 +11,7 @@ job(jobname) {
 	    ant('jar')
        {
 	    antInstallation '1.9.6'
-		buildFIle 'build.xml'
+		buildFile 'build.xml'
 	}
  }
 }
