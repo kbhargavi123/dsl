@@ -14,4 +14,7 @@ job(jobname) {
 		buildFile 'build.xml'
 	}
  }
+	publishers {
+		archiveArtifacts "lib/helloworld.jar"
+	}
 }
