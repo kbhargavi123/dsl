@@ -6,7 +6,7 @@ job(jobname) {
     triggers {
         scm('H/15 * * * *')
     }
-
+ jdk("java9")
     steps {
 	    ant('jar')
        {
