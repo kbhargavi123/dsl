@@ -10,7 +10,7 @@ job(jobname) {
     steps {
 	    ant('jar')
        {
-	    antInstallation '1.9.6'
+	    antInstallation 'ant installation'
 		buildFile 'build.xml'
 	}
  }
